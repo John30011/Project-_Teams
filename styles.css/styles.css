@@ -1,0 +1,19 @@
+body {
+ background-image: url("/asset/imag/Vamos_por_Mas.jpg"); /*Ruta del archivo de estilo */
+ background-position: center center;                     /*Centrado de iamgen en este caso lo estamos colocando dos veces ya que queremos que tenga un centrado arriba, abajo, izquierda, derecha */
+ background-repeat: no repeat;                          /*Que no se repita la iamgen */                    
+ background-size: cover;                                /*Resposive */
+ background-attachment: fixed;                          /*Cuando es el body y queremos utlizar la imag al 100%*/                
+}
+
+.Perfiles{
+    text-align:center;           /*Centrado del texto*/
+    color:cornflowerblue;     /*Color de text*/
+    margin: 250PX;              /*margen de altura*/
+   
+}
+
+.footer{
+    text-align:center; 
+    margin-left: 10px;  
+}

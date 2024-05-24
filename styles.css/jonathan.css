@@ -1,0 +1,35 @@
+body {
+    background-image: url("/asset/imag/cup-of-coffee-1280537.jpg"); /*Ruta del archivo de estilo */
+    background-position: center center;                     /*Centrado de iamgen en este caso lo estamos colocando dos veces ya que queremos que tenga un centrado arriba, abajo, izquierda, derecha */
+    background-repeat: no repeat;                          /*Que no se repita la iamgen */                    
+    background-size: cover;                                /*Resposive */
+    background-attachment: fixed;                          /*Cuando es el body y queremos utlizar la imag al 100%*/ 
+    padding: 5PX;    
+                                    
+   }
+
+   .borde-foto{
+    border: 5px solid white;  /*insercción de borde para la imagen color blaco*/
+    border-radius: 5px;
+    margin-left: 50px; 
+   }
+
+   .borde-text{
+    border: 5px; 
+    color:white;
+    margin-left: 325px; 
+    margin-top: -265px;  
+   }
+
+   .retorna{  
+     text-align:center;
+     margin-left: 1800px; 
+   
+      
+   }
+
+   .border-central-text{
+    color:aliceblue;
+    margin-left: 600px; 
+    margin-top: 265px;
+   }
