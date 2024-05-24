@@ -31,5 +31,30 @@ body {
    .border-central-text{
     color:aliceblue;
     margin-left: 600px; 
-    margin-top: 265px;
+    margin-top: 250px;
+   }
+
+   .borde-video{
+    position: relative;
+    margin-bottom: 100px ;
+    margin-left: 10px;
+    
+
+   }
+
+   .borde-video_1{
+    position: relative;
+    margin-bottom: 100px ;
+    margin-top: -385px;
+    margin-left: 690px;
+
+   }
+
+   .borde-video_2{
+    position: relative;
+    margin-bottom: 100px ;
+    margin-top: -385px;
+  
+    margin-left: 1350px;
+
    }
