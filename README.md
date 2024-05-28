@@ -13,14 +13,14 @@ Project del equipo Oplesk 8
 # 2.- crear un fichero con tu nombre.css trabaja en tu hoja y colocale creactividad
 # 3.- utiliza la opcion retorna como se ve en link html codigo.
 
-Para hacer una copia solo debe hacer un Fork.
-Luego realizan git remote add http://
-realizan los moodificaciones o la creaciones de los nuevo lienzo. 
-realizas un git pull
-realiza un git status
-realizar un git add .
-Realizar un git commit -m "xxxxxxxxxxxxxxxxxxxxx"
-Realizar git push -u origin
+# Para hacer una copia solo debe hacer un Fork.
+# Luego realizan git remote add http://
+# realizan los moodificaciones o la creaciones de los nuevo lienzo. 
+# realizas un git pull
+# realiza un git status
+# realizar un git add .
+# Realizar un git commit -m "xxxxxxxxxxxxxxxxxxxxx"
+# Realizar git push -u origin
 
 # VAMOS A DIVERTINOS.
 
