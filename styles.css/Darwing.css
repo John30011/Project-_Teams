@@ -1,0 +1,160 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    background-color: #745034;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu ul {
+    list-style: none;
+    width: 100%;
+}
+
+.menu ul li {
+    width: 100%;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 20px 0px;
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    width: 100%;
+}
+
+/* .menu ul li a:hover {
+    background-color: #4682B4;
+} */
+
+.contenido ul li {
+    margin: 15px;
+}
+
+.texmargin {
+    margin-top: 10px;
+}
+
+.selfie-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.selfie {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.autor {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.content-container {
+    display: none;
+}
+
+.content-container:target {
+    display: block;
+}
+
+.documentation {
+    background-color: #000;
+    padding: 20px;
+    border-radius: 8px;
+    width: fit-content;
+    margin: 20px;
+}
+
+.variable {
+    color: #fff;
+}
+
+.value {
+    color: #00ff00;
+}
+
+.video-link {
+    color: #00ff00;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.progress-bar {
+    background-color: #444;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 20px 0;
+    height: 25px;
+    width: 100%;
+}
+
+.progress {
+    background-color: #00ff00;
+    height: 100%;
+    border-radius: 25px 0 0 25px;
+}
+
+.progress-text {
+    font-size: 20px;
+}
+
+.principal {
+    font-size: 20px;
+    color: #745034;
+}
+
+
+@media screen and (max-width: 768px) {
+    .menu {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .menu ul {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .content {
+        margin-left: 0;
+        margin-top: 60px;
+        /* Ajustar según la altura del menú */
+    }
+}
