@@ -15,5 +15,7 @@ body {
 
 .footer{
     text-align:center; 
-    margin-left: 10px;  
+    font-size: 30px;
+    color: white;
+    margin-left:  30px;  
 }

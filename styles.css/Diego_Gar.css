@@ -1,6 +1,34 @@
 
+body{
+    background-image: url(../asset/imag/Imagenes_DiegoGar/Fondo_Vector.jpg);
+    background-position: center center;  /*Centrar la imagen, el doble center se usa para que quede centrado de todo los lados*/
+    background-repeat: no-repeat;        /*Esto es para que la imagen no se repita ne varios cuadros si no que se muestre una sola vez*/
+    background-size: cover;              /*Aqui se indica que sea responsive*/
+    background-attachment: fixed;        /*Aqui indicamos que sea usada la imagen en el 100% del body*/
+    padding: 0px;
+}
+
+.LogoInicial{
+position: static;
+position: sticky;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+}
+
+.LinkPaginaPrincipal{
+    position: static;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 20px;
+    color: black;
+}
+
 
 .Titulo {
+    font-family: sans-serif;
+    text-align: center;
     color: blue;
     font-size: 18px;
-}
+    }
